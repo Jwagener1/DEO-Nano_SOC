@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -4.616
+TNS   : -68.650
+
+Type  : Slow 1100mV 85C Model Setup 'Clock:rx_clock|Trig'
+Slack : -3.256
+TNS   : -36.631
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Clock:rx_clock|Trig'
+Slack : 0.832
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.394
+TNS   : -24.164
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Clock:rx_clock|Trig'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -4.349
+TNS   : -63.655
+
+Type  : Slow 1100mV 0C Model Setup 'Clock:rx_clock|Trig'
+Slack : -3.315
+TNS   : -36.881
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Clock:rx_clock|Trig'
+Slack : 0.731
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.394
+TNS   : -26.293
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Clock:rx_clock|Trig'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -2.865
+TNS   : -39.973
+
+Type  : Fast 1100mV 85C Model Setup 'Clock:rx_clock|Trig'
+Slack : -1.591
+TNS   : -15.137
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Clock:rx_clock|Trig'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.119
+TNS   : -5.428
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Clock:rx_clock|Trig'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -2.410
+TNS   : -30.835
+
+Type  : Fast 1100mV 0C Model Setup 'Clock:rx_clock|Trig'
+Slack : -1.515
+TNS   : -13.617
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Clock:rx_clock|Trig'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.114
+TNS   : -5.237
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Clock:rx_clock|Trig'
+Slack : 0.417
+TNS   : 0.000
+
+------------------------------------------------------------

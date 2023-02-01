@@ -1,0 +1,146 @@
+|Prac
+CLK => clock:main_clock.CLK
+CLK => Tx~reg0.CLK
+CLK => rx_temp[0].CLK
+CLK => rx_temp[1].CLK
+CLK => rx_temp[2].CLK
+CLK => rx_temp[3].CLK
+CLK => rx_temp[4].CLK
+CLK => rx_temp[5].CLK
+CLK => rx_temp[6].CLK
+CLK => rx_temp[7].CLK
+CLK => rx_bit_count[0].CLK
+CLK => rx_bit_count[1].CLK
+CLK => rx_bit_count[2].CLK
+CLK => tx_bit_count[0].CLK
+CLK => tx_bit_count[1].CLK
+CLK => tx_bit_count[2].CLK
+CLK => clock:rx_clock.CLK
+CLK => clock:tx_clock.CLK
+CLK => rx_PS~1.DATAIN
+CLK => tx_PS~1.DATAIN
+RST => clock:main_clock.RST
+RST => clock:rx_clock.RST
+RST => clock:tx_clock.RST
+RST => Tx.OUTPUTSELECT
+RST => tx_PS.OUTPUTSELECT
+RST => tx_PS.OUTPUTSELECT
+RST => tx_PS.OUTPUTSELECT
+RST => tx_PS.OUTPUTSELECT
+RST => tx_PS.OUTPUTSELECT
+RST => rx_PS.OUTPUTSELECT
+RST => rx_PS.OUTPUTSELECT
+RST => rx_PS.OUTPUTSELECT
+RST => rx_PS.OUTPUTSELECT
+RST => tx_bit_count.OUTPUTSELECT
+RST => tx_bit_count.OUTPUTSELECT
+RST => tx_bit_count.OUTPUTSELECT
+RST => rx_bit_count.OUTPUTSELECT
+RST => rx_bit_count.OUTPUTSELECT
+RST => rx_bit_count.OUTPUTSELECT
+Tx <= Tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rx_temp.DATAB
+Rx => rec_fsm.IN1
+Rx => Selector0.IN3
+Rx => Selector1.IN1
+STE[0] <= rx_bit_count[0].DB_MAX_OUTPUT_PORT_TYPE
+STE[1] <= rx_bit_count[1].DB_MAX_OUTPUT_PORT_TYPE
+STE[2] <= rx_bit_count[2].DB_MAX_OUTPUT_PORT_TYPE
+Sample_clk <= clock:rx_clock.Trig
+LED[0] <= rx_temp[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= rx_temp[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= rx_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= rx_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+LED[4] <= rx_temp[4].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] <= rx_temp[5].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] <= rx_temp[6].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] <= rx_temp[7].DB_MAX_OUTPUT_PORT_TYPE
+Tx_Flag <= tx_ready.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Prac|Clock:main_clock
+CLK => Trig~reg0.CLK
+CLK => Div_cnt[0].CLK
+CLK => Div_cnt[1].CLK
+CLK => Div_cnt[2].CLK
+CLK => Div_cnt[3].CLK
+CLK => Div_cnt[4].CLK
+RST => ~NO_FANOUT~
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Trig.IN1
+Trig <= Trig~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Prac|Clock:rx_clock
+CLK => Trig~reg0.CLK
+CLK => Div_cnt[0].CLK
+CLK => Div_cnt[1].CLK
+CLK => Div_cnt[2].CLK
+CLK => Div_cnt[3].CLK
+RST => ~NO_FANOUT~
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Trig.IN1
+Trig <= Trig~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Prac|Clock:tx_clock
+CLK => Trig~reg0.CLK
+CLK => Div_cnt[0].CLK
+CLK => Div_cnt[1].CLK
+CLK => Div_cnt[2].CLK
+CLK => Div_cnt[3].CLK
+RST => ~NO_FANOUT~
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Trig.IN1
+Trig <= Trig~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Prac|Bessel:Math_Program
+Math_input[0] => Math_output[0].DATAIN
+Math_input[1] => Math_output[1].DATAIN
+Math_input[2] => Math_output[2].DATAIN
+Math_input[3] => Math_output[3].DATAIN
+Math_input[4] => Math_output[4].DATAIN
+Math_input[5] => Math_output[5].DATAIN
+Math_input[6] => Math_output[6].DATAIN
+Math_input[7] => Math_output[7].DATAIN
+Math_output[0] <= Math_input[0].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[1] <= Math_input[1].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[2] <= Math_input[2].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[3] <= Math_input[3].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[4] <= Math_input[4].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[5] <= Math_input[5].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[6] <= Math_input[6].DB_MAX_OUTPUT_PORT_TYPE
+Math_output[7] <= Math_input[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

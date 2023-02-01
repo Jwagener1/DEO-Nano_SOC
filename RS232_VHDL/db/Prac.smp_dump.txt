@@ -1,0 +1,15 @@
+
+State Machine - |Prac|rx_PS
+Name rx_PS.r_stop rx_PS.r_rec rx_PS.r_start rx_PS.r_idle 
+rx_PS.r_idle 0 0 0 0 
+rx_PS.r_start 0 0 1 1 
+rx_PS.r_rec 0 1 0 1 
+rx_PS.r_stop 1 0 0 1 
+
+State Machine - |Prac|tx_PS
+Name tx_PS.t_stop tx_PS.t_sync tx_PS.t_send tx_PS.t_start tx_PS.t_idle 
+tx_PS.t_idle 0 0 0 0 0 
+tx_PS.t_start 0 0 0 1 1 
+tx_PS.t_send 0 0 1 0 1 
+tx_PS.t_sync 0 1 0 0 1 
+tx_PS.t_stop 1 0 0 0 1 

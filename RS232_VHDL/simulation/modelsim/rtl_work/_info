@@ -1,0 +1,146 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Tuks/2021/EES 424/Practical/simulation/modelsim
+Ebessel
+Z1 w1630424798
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8G:/My Drive/Tuks/2021/EES 424/Practical/Bessel.vhd
+Z6 FG:/My Drive/Tuks/2021/EES 424/Practical/Bessel.vhd
+l0
+L7 1
+VZf5zKV[JYZdXMTzz07:Dk2
+!s100 g<m@PA:R<GlgH8h?iOP>I3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1632741307
+!i10b 1
+Z9 !s108 1632741307.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Tuks/2021/EES 424/Practical/Bessel.vhd|
+Z11 !s107 G:/My Drive/Tuks/2021/EES 424/Practical/Bessel.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Amath_function
+R2
+R3
+R4
+Z14 DEx4 work 6 bessel 0 22 Zf5zKV[JYZdXMTzz07:Dk2
+!i122 1
+l19
+L15 13
+Vj3jj;T=;GYb_fAeLnS`g72
+!s100 :[H[:<ah=JJYcl8n<W[aL2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eclock
+Z15 w1629708169
+Z16 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R2
+R3
+R4
+!i122 0
+R0
+Z17 8G:/My Drive/Tuks/2021/EES 424/Practical/Clock.vhd
+Z18 FG:/My Drive/Tuks/2021/EES 424/Practical/Clock.vhd
+l0
+L8 1
+VbZ72>z[Fa23mcR[4KT9h<2
+!s100 PFTiGVd8Jl[Mb=[4Fj`8=2
+R7
+31
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Tuks/2021/EES 424/Practical/Clock.vhd|
+Z20 !s107 G:/My Drive/Tuks/2021/EES 424/Practical/Clock.vhd|
+!i113 1
+R12
+R13
+Aclock_logic
+R16
+R2
+R3
+R4
+Z21 DEx4 work 5 clock 0 22 bZ72>z[Fa23mcR[4KT9h<2
+!i122 0
+l52
+L38 58
+VA``3Ggi<>Z7<]KdcV@bJb3
+!s100 [N34RY;5n^:VYEZM75BGG2
+R7
+31
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Eprac
+Z22 w1630937928
+R16
+R2
+R3
+R4
+!i122 2
+R0
+Z23 8G:/My Drive/Tuks/2021/EES 424/Practical/Prac.vhd
+Z24 FG:/My Drive/Tuks/2021/EES 424/Practical/Prac.vhd
+l0
+L7 1
+Vkh8W?6BzI@CJbLm4z;;R:1
+!s100 48[4XzKY;AD<Egc`kH=oz3
+R7
+31
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Tuks/2021/EES 424/Practical/Prac.vhd|
+!s107 G:/My Drive/Tuks/2021/EES 424/Practical/Prac.vhd|
+!i113 1
+R12
+R13
+Aprac1
+R14
+R21
+R16
+R2
+R3
+R4
+DEx4 work 4 prac 0 22 kh8W?6BzI@CJbLm4z;;R:1
+!i122 2
+l87
+L42 442
+VLP^gZJ0j;^4h^PO3O`X:^0
+!s100 L2@?W@A2Tl@L5@Y>G:`7m1
+R7
+31
+R8
+!i10b 1
+R9
+R25
+Z26 !s107 G:/My Drive/Tuks/2021/EES 424/Practical/Prac.vhd|
+!i113 1
+R12
+R13

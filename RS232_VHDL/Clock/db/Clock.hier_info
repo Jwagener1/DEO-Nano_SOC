@@ -1,0 +1,19 @@
+|Clock
+CLK => Trig~reg0.CLK
+CLK => Div_cnt[0].CLK
+CLK => Div_cnt[1].CLK
+CLK => Div_cnt[2].CLK
+CLK => Div_cnt[3].CLK
+RST => ~NO_FANOUT~
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+CLR => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Div_cnt.OUTPUTSELECT
+EN => Trig.IN1
+Trig <= Trig~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
